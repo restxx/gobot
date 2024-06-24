@@ -488,9 +488,9 @@ const GraphView = (props: GraphViewProps) => {
             if (parentty === NodeTy.Sequence) {
                 edge.appendLabel({
                     attrs: {
-                        text: {
-                            text: idx.toString(),
-                        },
+//                        text: {
+//                            text: idx.toString(),
+//                        },
                         body: {
                             fill: bodyfill,
                         },
